@@ -1,0 +1,44 @@
+{
+	"name": "@example/basics",
+	"type": "module",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "astro dev --host",
+		"build": "astro build",
+		"start": "astro preview --host",
+		"astro": "astro",
+		"lint": "eslint . --config ./eslint.config.json",
+		"lint:fix": "eslint . --config ./eslint.config.json --fix",
+		"format": "prettier --check . --config ./prettier.config.json --ignore-path ./.gitignore",
+		"format:fix": "prettier --write . --config ./prettier.config.json --ignore-path ./.gitignore"
+	},
+	"dependencies": {
+		"@astrojs/alpinejs": "^0.3.1",
+		"@astrojs/mdx": "^1.1.1",
+		"@types/alpinejs": "^3.13.2",
+		"alpinejs": "^3.13.1",
+		"astro": "^3.2.4"
+	},
+	"//dependencies-comments": {
+		"astro": "^1.2.7"
+	},
+	"devDependencies": {
+		"@typescript-eslint/parser": "^6.7.5",
+		"eslint": "^8.51.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-astro": "^0.29.1",
+		"eslint-plugin-jsx-a11y": "^6.7.1",
+		"prettier": "^3.0.3",
+		"prettier-plugin-astro": "^0.12.0"
+	},
+	"//devDependencies-commnents": {
+		"@typescript-eslint/parser": "^5.38.0",
+		"eslint": "^8.23.1",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-astro": "^0.19.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"prettier": "^2.7.1",
+		"prettier-plugin-astro": "^0.5.4"
+	}
+}
